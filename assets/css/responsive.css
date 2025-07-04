@@ -29,6 +29,9 @@
         width: 160%; 
         left: -30%;
     }
+    .main-app-content {
+        margin-top: 415px;
+    }
 }
 
 @media all and (max-width: 575px){

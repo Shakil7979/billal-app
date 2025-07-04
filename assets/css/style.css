@@ -83,7 +83,7 @@ ul li a,a{
 .star-shape {
 	width: 100%;
 	position: absolute;
-	top: -35%;
+	top: -400px;
 	left: 0;
 	right: 0;
 	margin: 0 auto; 
@@ -188,6 +188,15 @@ ul li a,a{
 	border-radius: 70px;
 }
 
+.btn-login {
+	max-width: 100%;
+	margin-bottom: 38px !important;
+}
+
+.btn-last-login {
+	margin-top: 38px !important;
+}
+
  
 #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
 	width: 28px;
@@ -256,6 +265,90 @@ ul li a,a{
 	left: 2px;
 } 
 
+.archive-main {
+	background: #FA6005 !important;
+}
+
+.main-app-content {
+	margin-top: 455px;
+}
+
+.archive-item {
+	margin-top: 73px;
+	position: relative;
+}
+
+.archive-item h4 {
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 12px;
+}
+
+.archive-item ul li {
+	font-size: 15px;
+	color: #fff;
+	margin-bottom: 12px;
+	font-family: "Raleway", sans-serif; 
+}
+
+.archive-content {
+	padding-top: 33px;
+	position: relative;
+}
+
+.archive-content::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -43px;
+	height: 100%;
+	width: 3px;
+	background: #1C517F;
+}
+
+.arch_arrow {
+	position: absolute;
+	top: -4px;
+	left: -59px;
+}
+
+.about-main{
+	background: #EEE5B7;
+}
+
+.about-text p {
+	font-size: 15px;
+	font-family: "Raleway", sans-serif;
+	width: 100%;
+	max-width: 375px;
+	text-align: center;
+	color: #165586;
+}
+
+.about-text p span {
+	text-transform: uppercase;
+}
+
+.about-info {
+	margin-top: 93px;
+	text-align: center;
+}
+
+.about-info h3{
+	margin-top: 93px;
+	font-size: 30px;
+	color: #175586;
+}
+
+.about-info ul li {
+	margin-top: 31px;
+}
+
+.about-info ul li p {
+	font-family: "Raleway", sans-serif;
+	font-size: 15px;
+	color: #165586;
+}
 
 
 
