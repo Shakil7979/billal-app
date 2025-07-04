@@ -163,7 +163,7 @@ ul li a,a{
 	z-index: 9999;
 	left: 0;
 	top: 0;
-	height: 100vh;
+	height: 100%;
 	padding-top: 136px; 
 	display: none;
 }
