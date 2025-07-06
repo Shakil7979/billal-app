@@ -26,7 +26,7 @@ ul li a,a{
 .main-app {
 	width: 100%;
 	max-width: 1024px;
-	background: #ece3ff;
+	background: #E2D6FF;
 	border-radius: 0 0 50px 50px;
 	overflow: hidden;
 	min-height: 100vh;
@@ -37,7 +37,7 @@ ul li a,a{
 	padding: 50px 30px;
 	box-sizing: border-box;
 	position: relative;
-	padding-top: 25px;
+	padding-top: 20px;
 }
 
 
@@ -76,9 +76,10 @@ ul li a,a{
 	color: #6474BA;
 	font-size: 30px;
 	font-weight: 300;
-	margin-top: 65px;
+	margin-top: 75px;
 	position: relative;
 	z-index: 99;
+	text-transform: uppercase;
 }
 
 .star-shape {
@@ -99,13 +100,16 @@ ul li a,a{
 	max-width: 353px;
 	margin: 0 auto; 
 	display: flex;
-	flex-direction: column;
-	gap: 15px;
-	margin-top: 410px;
+	flex-direction: column; 
+	margin-top: 450px;
+}
+
+.login-content{
+	width: 353px;
 }
 
 .form input {
-	padding: 12px 20px;
+	padding: 13px 20px;
 	border-radius: 38px;
 	border: none;
 	outline: none;
@@ -115,7 +119,8 @@ ul li a,a{
 	font-family: "Raleway", sans-serif;
 	width: 100%;
 	box-sizing: border-box;
-	margin-bottom: 40px;
+	margin-bottom: 61px;
+	font-size: 15px; 
 }
 
 .form input::placeholder {
@@ -136,17 +141,37 @@ ul li a,a{
 	border-radius: 20px;
 	cursor: pointer;
 	text-transform: uppercase;
-	margin-top: 10px;
-	width: 100%;
-	max-width: 185px;
-	margin: 0 auto;
-	font-family: "Raleway", sans-serif;
-	font-weight: 400;
+	margin-top: 10px; 
+	font-family: "Poller One", sans-serif;
+	font-weight: 400; 
+	font-size: 20px;
 }
 
-.form button { 
-	margin-top: 100px;
-	margin-bottom: 64px;
+.form button {
+	margin: 0 auto;
+	margin-top: 104px;
+	margin-bottom: 14px;
+	padding: 12px 34px;
+	border-radius: 50px;  
+	display: inline-block;
+	width: 184px;
+} 
+
+.form.form-btn-3 button { 
+	padding: 16px 22px;
+	margin: 0; 
+	width: 367px !important;
+}
+
+.form-btn-3 {
+	display: flex;
+	flex-direction: column;
+	gap: 38px;
+	margin-bottom: 53px;
+}
+
+.m-0{
+	margin: 0 !important;
 }
 
 .btn-2 {
@@ -270,6 +295,10 @@ ul li a,a{
 	background: #FA6005 !important;
 }
 
+.archive-text{
+	color: #FA6005 !important;
+}
+
 .main-app-content {
 	margin-top: 455px;
 }
@@ -282,19 +311,25 @@ ul li a,a{
 .archive-item h4 {
 	font-size: 20px;
 	color: #fff;
-	margin-bottom: 12px;
+	margin-bottom: 14px;
 }
 
 .archive-item ul li {
 	font-size: 15px;
 	color: #fff;
-	margin-bottom: 12px;
+	font-weight: 600;
+	margin-bottom: 0px;
 	font-family: "Raleway", sans-serif; 
+}
+
+.archive-item ul li:first-child {
+	margin-bottom: 14px !important;
 }
 
 .archive-content {
 	padding-top: 33px;
 	position: relative;
+	margin-left: 30px;
 }
 
 .archive-content::after {
@@ -318,6 +353,13 @@ ul li a,a{
 	border-radius: 0;
 }
 
+.about-app-content {
+	margin-top: 415px !important;
+}
+
+.about-text {
+	color: #CCAA13 !important;
+}
 .about-text p {
 	font-size: 15px;
 	font-family: "Raleway", sans-serif;
@@ -332,14 +374,23 @@ ul li a,a{
 }
 
 .about-info {
-	margin-top: 93px;
+	margin-top: 97px;
 	text-align: center;
+}
+
+.portfolio-text {
+	color: #1C517F;
 }
 
 .about-info h3{
 	margin-top: 93px;
 	font-size: 30px;
+	text-transform: uppercase;
 	color: #175586;
+}
+
+.about-footer-logo {
+	margin-bottom: 16px;
 }
 
 .about-info ul li {
@@ -385,6 +436,10 @@ ul li a,a{
 	background: #1C517F !important;
 }
 
+.profile-app-content { 
+	margin-top: 400px !important;
+}
+
 .profile-content ul p {
 	font-size: 15px;
 	font-weight: 600;
@@ -404,7 +459,11 @@ ul li a,a{
 }
 
 .profile-content ul {
-	margin-top: 30px;
+	margin-top: 60px;
+}
+
+.mb-15{
+	margin-bottom: 15px !important;
 }
 
 
@@ -431,6 +490,7 @@ ul li a,a{
 	border-radius: 50px;
 	margin-top: 150px;
 	padding-bottom: 51px;
+	margin-bottom: 84px;
 }
 
 .pres-logo {
@@ -445,22 +505,32 @@ ul li a,a{
 	font-size: 30px;
 	color: #fff;
 	padding-top: 230px;
-	margin-bottom: 40px;
+	margin-bottom: 52px;
 }
 
 .pres-content p {
-	margin-bottom: 50px;
+	margin-bottom: 52px;
 	color: #fff;
 	font-size: 20px;
 }
 
 .pres-btn {
 	background: #FDEE92;
-	padding: 13px 53px;
+	padding: 13px 20px;
 	display: inline-block;
 	border-radius: 50px;
 	font-size: 20px;
 	color: #1C517F;
+}
+
+.pres-btn-ul.no-uppercase li {
+	flex: 0 0 25%;
+}
+
+.direction-column {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .mb-30 {

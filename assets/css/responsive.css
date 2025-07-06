@@ -22,16 +22,16 @@
         width: 140%; 
         left: -20%;
     }
+    body { 
+        margin: 0;
+    }
 }
 
 @media all and (max-width: 630px){
 	.star-shape {
         width: 160%; 
         left: -30%;
-    }
-    .main-app-content {
-        margin-top: 415px;
-    }
+    } 
 }
 
 @media all and (max-width: 575px){
@@ -51,7 +51,7 @@
 @media all and (max-width: 450px){
 	.star-shape {
         width: 230%; 
-        left: -60%;
+        left: -65%;
     }
 }
 
