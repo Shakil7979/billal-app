@@ -508,6 +508,10 @@ ul li a,a{
 	margin-bottom: 52px;
 }
 
+.register-form {
+	padding-top: 230px;
+}
+
 .pres-content p {
 	margin-bottom: 52px;
 	color: #fff;
@@ -605,6 +609,60 @@ ul li a,a{
 
 .mb-40 {
 	margin-bottom: 40px;
+} 
+
+.register-form{
+	margin: 0 auto;
+	width: 353px;
+}
+
+.form-group label {
+	font-size: 15px;
+	font-family: "Raleway", sans-serif;
+	margin-bottom: 13px;
+	display: block;
+	line-height: 0;
+	color: #fff;
+	text-align: left;
+}
+
+.register-btn{
+	margin-top: 50px;
+}
+
+.form-p label{
+	color: #FDEE92 !important;
+	margin-bottom: 32px !important;
+}
+
+.form-group textarea,
+.form-group input {
+	background: #7192AF;
+	border: none;
+	height: 41px;
+	width: 100%;
+	border-radius: 38px; 
+	padding: 10px 15px;
+	color: #fff;
+	font-size: 15px;
+	font-family: "Raleway", sans-serif;
+	box-sizing: border-box;
+}
+
+.form-group textarea:focus ,
+.form-group input:focus { 
+	box-shadow: 0 2px 10px #031524D6;
+	outline: none;
+}
+
+
+.form-group textarea{
+	resize: none;
+	height: 240px;
+}
+
+.form-group {
+	margin-bottom: 24px;
 }
 
 
