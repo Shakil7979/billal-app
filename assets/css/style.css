@@ -312,6 +312,7 @@ ul li a,a{
 	font-size: 20px;
 	color: #fff;
 	margin-bottom: 14px;
+	text-transform: uppercase;
 }
 
 .archive-item ul li {
@@ -364,13 +365,16 @@ ul li a,a{
 	font-size: 15px;
 	font-family: "Raleway", sans-serif;
 	width: 100%;
-	max-width: 375px;
+	max-width: 316px;
 	text-align: center;
 	color: #165586;
+	margin: auto;
+	line-height: 18px;
 }
 
 .about-text p span {
 	text-transform: uppercase;
+	font-weight: 600;
 }
 
 .about-info {
@@ -426,10 +430,28 @@ ul li a,a{
 	justify-content: center;
 }
 
-.about-footer-logo ul li {
+.about-footer-logo ul li{
 	flex: 0 0 47%;
 	text-align: center;
 }
+.about-footer-logo ul li span{
+	font-family: "Raleway", sans-serif;
+	font-size: 9px;
+	color: #165586;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 10px;
+}
+/*.about-footer-logo ul li a{
+	font-family: "Raleway", sans-serif;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	font-size: 9px;
+	color: #165586;
+	flex: 0 0 47%;
+	text-align: center;
+}*/
 
 .profile-app {
 	border-radius: 0;
@@ -506,6 +528,7 @@ ul li a,a{
 	color: #fff;
 	padding-top: 230px;
 	margin-bottom: 52px;
+	text-transform: uppercase;
 }
 
 .register-form {
@@ -619,11 +642,13 @@ ul li a,a{
 .form-group label {
 	font-size: 15px;
 	font-family: "Raleway", sans-serif;
-	margin-bottom: 13px;
+	margin-bottom: 16px;
 	display: block;
 	line-height: 0;
 	color: #fff;
 	text-align: left;
+	text-transform: uppercase;
+	font-weight: 600;
 }
 
 .register-btn{
@@ -635,13 +660,12 @@ ul li a,a{
 	margin-bottom: 32px !important;
 }
 
-.form-group textarea,
-.form-group input {
+.form-group textarea, .form-group input {
 	background: #7192AF;
 	border: none;
 	height: 41px;
 	width: 100%;
-	border-radius: 38px; 
+	border-radius: 38px;
 	padding: 10px 15px;
 	color: #fff;
 	font-size: 15px;
@@ -662,9 +686,12 @@ ul li a,a{
 }
 
 .form-group {
-	margin-bottom: 24px;
+	margin-bottom: 30px;
 }
-
+.form-group.form-p label {
+	max-width: 230px;
+	line-height: 18px;
+}
 
 /*======================  End Page  ======================*/
 
